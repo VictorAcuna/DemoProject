@@ -4,10 +4,10 @@ export class Recipe {
   public imagePath: string;
 
   constructor(name: string,
-              desc:string,
+              desc: string,
               imagepath: string){
     this.name = name;
     this.description = desc;
-    this.imagePath = imagePath;
+    this.imagePath = imagepath;
   }
 }
